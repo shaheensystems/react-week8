@@ -2,7 +2,7 @@ import React from 'react';
 import './Menu.css';
 import Product from './Product';
 const products = [
-    { id: 1, name: "Lamington", price: "$3", category: "Cakes" },
+    { id: 1, name: "Lamington", price: "$3", category: "Cakes" , img_url:"/images/lamington.jpg"},
     { id: 2, name: "Pavlova", price: "$4.5", category: "Cakes" },
     { id: 3, name: "Croissant", price: "$2.5", category: "Pastries" },
     { id: 4, name: "Baguette", price: "$1.5", category: "Breads" },
